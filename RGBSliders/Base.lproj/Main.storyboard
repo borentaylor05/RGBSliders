@@ -64,7 +64,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="b1p-RR-SV2" kind="show" id="M7i-mP-76T"/>
+                                    <segue destination="b1p-RR-SV2" kind="show" identifier="openColor" id="M7i-mP-76T"/>
                                 </connections>
                             </button>
                         </subviews>
