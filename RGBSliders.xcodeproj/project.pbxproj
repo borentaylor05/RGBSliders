@@ -13,6 +13,7 @@
 		A164463A1B34C1AC00B741F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16446391B34C1AC00B741F5 /* Images.xcassets */; };
 		A164463D1B34C1AC00B741F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A164463B1B34C1AC00B741F5 /* LaunchScreen.xib */; };
 		A16446491B34C1AC00B741F5 /* RGBSlidersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16446481B34C1AC00B741F5 /* RGBSlidersTests.swift */; };
+		A16446531B34FEA500B741F5 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16446521B34FEA500B741F5 /* Shape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A16446421B34C1AC00B741F5 /* RGBSlidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBSlidersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16446471B34C1AC00B741F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16446481B34C1AC00B741F5 /* RGBSlidersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSlidersTests.swift; sourceTree = "<group>"; };
+		A16446521B34FEA500B741F5 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A16446321B34C1AC00B741F5 /* AppDelegate.swift */,
 				A16446341B34C1AC00B741F5 /* ViewController.swift */,
+				A16446521B34FEA500B741F5 /* Shape.swift */,
 				A16446361B34C1AC00B741F5 /* Main.storyboard */,
 				A16446391B34C1AC00B741F5 /* Images.xcassets */,
 				A164463B1B34C1AC00B741F5 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16446351B34C1AC00B741F5 /* ViewController.swift in Sources */,
+				A16446531B34FEA500B741F5 /* Shape.swift in Sources */,
 				A16446331B34C1AC00B741F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				A164464E1B34C1AC00B741F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A164464F1B34C1AC00B741F5 /* Build configuration list for PBXNativeTarget "RGBSlidersTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				A16446511B34C1AC00B741F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
